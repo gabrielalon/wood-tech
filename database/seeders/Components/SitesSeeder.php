@@ -19,7 +19,7 @@ final class SitesSeeder extends Seeder
     public function run(JsonSerializer $serializer): void
     {
         foreach (LocaleEnum::cases() as $enum) {
-            $this->seedLanguage($enum->value, true);
+            $this->seedLanguage($enum->value);
         }
 
         $source = database_path('/dump/continents.json');
@@ -33,11 +33,11 @@ final class SitesSeeder extends Seeder
         }
     }
 
-    private function seedLanguage(string $code, bool $active = false): void
+    private function seedLanguage(string $code): void
     {
         Language::query()->updateOrCreate(['code' => $code], [
             'native_name' => Str::ucfirst(Languages::getName($code, displayLocale: $code)),
-            'is_active' => $active,
+            'is_active' => LocaleEnum::tryFrom($code) instanceof LocaleEnum,
         ]);
     }
 

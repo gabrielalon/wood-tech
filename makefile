@@ -1,9 +1,8 @@
 .PHONY: build
 build: ## sail build and up project
 		./vendor/bin/sail up --build -d
-		install
-		cleardb
-		cleanup
+		./vendor/bin/sail composer install
+		./vendor/bin/sail artisan migrate:fresh --seed
 
 .PHONY: start
 start: ## sail up project
