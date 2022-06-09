@@ -1,0 +1,22 @@
+includes:
+    - ./vendor/nunomaduro/larastan/extension.neon
+
+parameters:
+    checkGenericClassInNonGenericObjectType: false
+    checkMissingIterableValueType: false
+    paths:
+        - app/
+        - tests/
+
+    # The level 8 is the highest level
+    level: 2
+
+    ignoreErrors:
+#        - '#PHPDoc tag.+#'
+
+    bootstrapFiles:
+#        - _ide_helper.php
+#        - _ide_helper_models.php
+
+    excludePaths:
+#        - app/Http/Middleware/Authenticate.php

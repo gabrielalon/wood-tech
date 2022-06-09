@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping
+                          http://raw.github.com/doctrine/doctrine2/master/doctrine-mapping.xsd">
+
+    <entity name="Components\Accounts\Domain\Admin" table="admin">
+        <id name="id" type="uuid" column="id" />
+        <field name="userId" type="uuid" column="user_id"/>
+        <field name="firstName" column="first_name" length="255" />
+        <field name="lastName" column="last_name" length="255" />
+        <field name="deletedAt" type="datetime_immutable" column="deleted_at" nullable="true"/>
+    </entity>
+
+</doctrine-mapping>

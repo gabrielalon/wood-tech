@@ -1,0 +1,83 @@
+[
+    {
+        "type": "company.name",
+        "pl": {
+            "value": "Wood-Tech"
+        },
+        "en": {
+            "value": "Wood-Tech"
+        }
+    },
+    {
+        "type": "company.address_line.1",
+        "pl": {
+            "value": "Reptowska 24"
+        },
+        "en": {
+            "value": "Reptowska 24"
+        }
+    },
+    {
+        "type": "company.address_line.2",
+        "pl": {
+            "value": "3"
+        },
+        "en": {
+            "value": "3"
+        }
+    },
+    {
+        "type": "company.zip_code",
+        "pl": {
+            "value": "41-923"
+        },
+        "en": {
+            "value": "41-923"
+        }
+    },
+    {
+        "type": "company.city",
+        "pl": {
+            "value": "Bytom"
+        },
+        "en": {
+            "value": "Bytom"
+        }
+    },
+    {
+        "type": "company.country",
+        "pl": {
+            "value": "Polska"
+        },
+        "en": {
+            "value": "Polan"
+        }
+    },
+    {
+        "type": "company.email",
+        "pl": {
+            "value": "woodtechmeble@gmail.com"
+        },
+        "en": {
+            "value": "woodtechmeble@gmail.com"
+        }
+    },
+    {
+        "type": "company.phone",
+        "pl": {
+            "value": "690 414 353"
+        },
+        "en": {
+            "value": "+48 690 414 353"
+        }
+    },
+    {
+        "type": "company.nip",
+        "pl": {
+            "value": "6263022568"
+        },
+        "en": {
+            "value": "6263022568"
+        }
+    }
+]

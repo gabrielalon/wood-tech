@@ -1,0 +1,80 @@
+[
+    {
+        "type": "kitchen-design",
+        "pl": {
+            "name": "Kuchnie na wymiar",
+            "lead": "Nowoczesne i klasyczne kuchnie na wymiar z wykorzystaniem materiałów klasycznych i premium.",
+            "description": "Specjalizujemy się w zabudowach kuchennych, które wyróżnia maksymalna funkcjonalność oraz estetyka. Zapewniamy kompleksową usługę począwszy od precyzyjnych pomiarów, przez wykonanie projektu i wizualizacji, aż po montaż z pełnym wyposażeniem AGD. Współpracujemy z bardzo dużą liczbą dostawców materiałów, dzięki czemu możemy zaproponować szeroki wybór frontów, blatów i akcesoriów. Po poznaniu oczekiwań dot. funkcjonalności, wyglądu kuchni oraz zaplanowanego budżetu, każdorazowo staramy zaprezentować maksimum możliwości, tak by każdy wybrał optymalne dla siebie rozwiązanie. Wykonujemy kuchnie z typowych i najbardziej popularnych materiałów."
+        },
+        "en": {
+            "name": "Kitchens design",
+            "lead": "Modern and classic kitchens to size using classic and premium materials.",
+            "description": "We specialize in kitchen cabinets that are distinguished by maximum functionality and aesthetics. We provide a comprehensive service, ranging from precise measurements, through design and visualization, to installation with full household appliances. We work with a very large number of material suppliers, so we can offer a wide selection of fronts, countertops and accessories. After getting to know the expectations regarding functionality, the appearance of the kitchen and the planned budget, each time we try to present the maximum possibilities so that everyone can choose the optimal solution for themselves. We make kitchens from typical and most popular materials."
+        }
+    },
+    {
+        "type": "dressing-room-design",
+        "pl": {
+            "name": "Garderoby na wymiar",
+            "lead": "Kompleksowe zabudowy garderoby z oświetleniem, szafy wnękowe, zabudowy przedpokoju.",
+            "description": "Szukasz idealnej garderoby? Zależy ci na wysokiej jakości i solidnym wykonaniu służącym przez lata? Znakomicie, że do nas trafiłeś! W Studiu meblowym Wood-Tech projektujemy, produkujemy i montujemy garderoby na wymiar dopasowane do osobistych oczekiwań klientów. Wykorzystujemy trwałe materiały, najlepsze technologie oraz wygodne systemy otwierania i przechowywania. Działamy precyzyjnie i terminowo."
+        },
+        "en": {
+            "name": "Dressing room design",
+            "lead": "Comprehensive built-in wardrobes with lighting, built-in wardrobes, hall furniture.",
+            "description": "Are you looking for the perfect wardrobe? Do you care about high quality and solid workmanship that will serve you for years? It's great that you came to us! In the Wood-Tech Furniture Studio, we design, manufacture and assemble custom-made wardrobes tailored to the personal expectations of customers. We use durable materials, the best technologies and convenient opening and storage systems. We operate precisely and on time."
+        }
+    },
+    {
+        "type": "wardrobe-design",
+        "pl": {
+            "name": "Szafy na wymiar",
+            "lead": "Funkcjonalne szafy w zabudowie przesuwne oraz wolnostojące, zabudowy wnęk i skosów.",
+            "description": "Szukasz idealnej garderoby? Zależy ci na wysokiej jakości i solidnym wykonaniu służącym przez lata? Znakomicie, że do nas trafiłeś! W Studiu meblowym Wood-Tech projektujemy, produkujemy i montujemy garderoby na wymiar dopasowane do osobistych oczekiwań klientów. Wykorzystujemy trwałe materiały, najlepsze technologie oraz wygodne systemy otwierania i przechowywania. Działamy precyzyjnie i terminowo."
+        },
+        "en": {
+            "name": "Wardrobes design",
+            "lead": "Functional sliding and free-standing built-in wardrobes, built-in recesses and slants.",
+            "description": "Are you looking for a new wardrobe for the living room, bedroom or hall? Do you care about high-quality furniture? Choose a wardrobe that will perfectly match your interior! In the Wood-Tech furniture studio, we design wardrobes to size - we create them from scratch and adjust them to the individual preferences of customers. The experience we have been gaining for many years translates into great quality and functionality of our projects. Contact us and we will take care of everything - we will design, manufacture and install your dream wardrobe for you!"
+        }
+    },
+    {
+        "type": "bathroom-design",
+        "pl": {
+            "name": "Meble łazienkowe",
+            "lead": "Funkcjonalne szafy w zabudowie przesuwne oraz wolnostojące, zabudowy wnęk i skosów.",
+            "description": "Nowocześnie zaprojektowane łazienki to stylowe pomieszczenia zachwycające swoim designem, a także funkcjonalnością. Dzięki odpowiednio rozmieszczonym meblom są w stanie przechować wszystko to, co potrzebne jest podczas porannej toalety czy wieczornych rytuałów kąpielowych. Jeśli szukasz pełnej zabudowy łazienkowej mieszczącej pralkę, suszarkę i akcesoria gospodarcze lub wręcz przeciwnie, potrzebujesz mebli do niewielkiej łazienki, to zgłoś się do studia projektowego Wood-Tech! Oferujemy nowoczesne rozwiązania w pełni wykorzystujące przestrzeń użytkową pomieszczenia. Jednocześnie dbamy, by nasze realizacje były estetyczne i w pełni komfortowe w użytkowaniu."
+        },
+        "en": {
+            "name": "Bathroom furnitures",
+            "lead": "Bathroom furnitures to size - suspended cabinets, posts, countertops and full bathroom fittings.",
+            "description": "Modernly designed bathrooms are stylish rooms that delight with their design and functionality. Thanks to properly arranged furniture, they are able to store everything that is needed during the morning toilet or evening bathing rituals. If you are looking for a complete bathroom with a washing machine, dryer and household accessories, or on the contrary, you need furniture for a small bathroom, contact the Wood-Tech design studio! We offer modern solutions that take full advantage of the usable space of the room. At the same time, we make sure that our projects are aesthetic and fully comfortable to use."
+        }
+    },
+    {
+        "type": "office-design",
+        "pl": {
+            "name": "Meble do biura",
+            "lead": "Pełne umeblowanie biur, archiwów i sal konferencyjnych. Meble wolnostojące oraz w zabudowie.",
+            "description": "Szukasz mebli do biura na wymiar? Niezależnie od tego, czy stawiasz na nowoczesne, czy klasyczne rozwiązania – dobrze trafiłeś! W naszym studiu Wood-Tech codziennie zajmujemy się projektowaniem, tworzeniem i montowaniem mebli na wymiar. Każdy produkt dostosowujemy do najnowszych rozwiązań, aby ułatwić klientowi przede wszystkim codzienne funkcjonowanie. Stosujemy materiały najwyższej jakości, starannie dbając przy wykończeniu o każdy detal. Do każdego projektu podchodzimy z pełnym zaangażowaniem i realizujemy go w terminie."
+        },
+        "en": {
+            "name": "Office furnitures",
+            "lead": "Fully furnished offices, archives and conference rooms. Free-standing and built-in furniture.",
+            "description": "Are you looking for custom-made office furniture? Regardless of whether you choose modern or classic solutions - you've come to the right place! In our Wood-Tech studio, we design, create and assemble furniture to size every day. We adapt each product to the latest solutions in order to facilitate the client's daily functioning. We use the highest quality materials, carefully taking care of every detail when finishing. We approach each project with full commitment and implement it on time."
+        }
+    },
+    {
+        "type": "bedroom-design",
+        "pl": {
+            "name": "Meble do sypialni",
+            "lead": "Meble do sypialni i pokoju dziecięcego na wymiar – szafy, komody, szafki nocne i zabudowy wnęk.",
+            "description": "Projektujemy i produkujemy meble do sypialni, które pozwalają stworzyć harmonijną przestrzeń, idealną do relaksu, odpoczynku. W sypialni przechowujemy też często najpotrzebniejsze rzeczy codziennego użytku typu ubrania, ręczniki czy pościel. Dlatego też zabudowa meblowa do sypialni powinna być maksymalnie funkcjonalna, a jednocześnie wygodna w użytkowaniu i wytrzymała. Takie właśnie są meble do sypialni na wymiar projektowane przez studio meblowe Wood-Tech. Dopasowane w każdym aspekcie – zsynchronizowane z aranżacją wnętrza i osobistymi potrzebami domowników, stanowić mogą doskonałe uzupełnienie całości."
+        },
+        "en": {
+            "name": "Bedroom furnitures",
+            "lead": "Custom-made bedroom and children's room furniture - wardrobes, chests of drawers, bedside tables and built-in recesses.",
+            "description": "We design and manufacture bedroom furniture that allows you to create a harmonious space, perfect for relaxation and rest. In the bedroom, we also often store the most necessary everyday items, such as clothes, towels or bedding. Therefore, furniture for the bedroom should be as functional as possible, and at the same time comfortable to use and durable. These are the custom-made bedroom furniture designed by the Wood-Tech furniture studio. Matching in every aspect - synchronized with the interior arrangement and personal needs of the household members, they can be a perfect complement to the whole."
+        }
+    }
+]

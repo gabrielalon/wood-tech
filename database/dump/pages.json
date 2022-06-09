@@ -1,0 +1,15 @@
+[
+    {
+        "type": "home",
+        "pl": {
+            "name": "Wood-Tech",
+            "lead": "Producent kuchni i mebli na wymiar",
+            "description": "Oferujemy kompleksową usługę projektowania, wykonania oraz montażu mebli na wymiar. Naszą główną specjalność stanowią kuchnie na wymiar. Równie chętnie wykonujemy zabudowy szaf, garderoby, meble łazienkowe, meble biurowe oraz zabudowy do pokojów dziecięcych i sypialni. Na etapie projektowania dokładnie poznajemy potrzeby i oczekiwania naszych Klientów, a także nawyki w zakresie korzystania z określonych sprzętów i pomieszczeń. Dzięki temu możemy zaproponować rozwiązania, które nie tylko zachwycają wyglądem, ale też zapewniają pełną funkcjonalność. Kompleksowo zamawiamy i montujemy wybrany sprzęt AGD."
+        },
+        "en": {
+            "name": "Kitchens design",
+            "lead": "A manufacturer of kitchen and furniture to size",
+            "description": "We offer a comprehensive service of designing, manufacturing and assembling custom-made furniture. Our main specialty are custom-made kitchens. We are also eager to make built-in wardrobes, wardrobes, bathroom furniture, office furniture and furniture for children's rooms and bedrooms. At the design stage, we get to know the needs and expectations of our customers in detail, as well as the habits of using specific equipment and rooms. Thanks to this, we can offer solutions that not only impress with their appearance, but also provide full functionality. We comprehensively order and install selected household appliances."
+        }
+    }
+]

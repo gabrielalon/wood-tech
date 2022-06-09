@@ -1,0 +1,52 @@
+[
+    {
+        "pl": {
+            "question": "Czy mogę uzyskać bezpłatny pomiar i wizualizację?",
+            "answer": "Tak. Wykonujemy bezpłatny pomiar na terenie Bytomia, a następnie przygotowujemy wizualizację zabudowy wraz z wyceną."
+        },
+        "en": {
+            "question": "Can I get free measurement and visualization?",
+            "answer": "Yes. We carry out a free measurement in Bytom, and then prepare a visualization of the building development with a quote."
+        }
+    },
+    {
+        "pl": {
+            "question": "Czy mogę zamówić meble i sprzęt AGD?",
+            "answer": "Tak. Dostarczamy sprzęt AGD według Państwa potrzeb i podłączamy go na etapie montażu mebli. Podłączenie sprzętu wynosi 100 zł za każde urządzenie."
+        },
+        "en": {
+            "question": "Can I order furniture and household appliances?",
+            "answer": "Yes. We supply household appliances according to your needs and connect them at the furniture assembly stage. Connecting the equipment is 100 PLN for each device."
+        }
+    },
+    {
+        "pl": {
+            "question": "Ile kosztuje wykonanie projektu?",
+            "answer": "Przygotowanie projektu i wizualizacji to koszt 1000 zł. W tej cenie wykonujemy pomiar pomieszczeń w dowolnej lokalizacji, a po opracowaniu wizualizacji i projektu przekazujemy go Klientowi w wersji papierowej lub elektronicznej. Jeśli Klient podpisze umowę na wykonanie mebli, opłata za projekt zostanie zaliczona na poczet zamówienia (obniży kwotę do zapłaty)."
+        },
+        "en": {
+            "question": "How much does the project cost?",
+            "answer": "Preparation of the design and visualization costs 1000 PLN. At this price, we measure rooms in any location, and after developing the visualization and design, we provide it to the customer in electronic version. If the customer signs a contract for furniture production, the fee for the design will be credited towards the order (it will reduce the final amount to be paid)."
+        }
+    },
+    {
+        "pl": {
+            "question": "Ile czasu trwa produkcja i montaż mebli od momentu zamówienia?",
+            "answer": "Czas realizacji wynosi średnio od 6 do 12 tygodni."
+        },
+        "en": {
+            "question": "How long does it take to manufacture and assemble furniture from ordering?",
+            "answer": "The turnaround time is on average 6 to 12 weeks."
+        }
+    },
+    {
+        "pl": {
+            "question": "Czy meble objęte są gwarancją?",
+            "answer": "Tak. Gwarancja na meble wynosi 24 miesiące."
+        },
+        "en": {
+            "question": "Is the furniture covered by the guarantee?",
+            "answer": "Yes. The furniture is guaranteed for 24 months."
+        }
+    }
+]
