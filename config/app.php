@@ -207,7 +207,6 @@ return [
          * Package Service Providers...
          */
         Barryvdh\Debugbar\ServiceProvider::class,
-        LaravelDoctrine\ORM\DoctrineServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -232,9 +231,7 @@ return [
 
     'aliases' => Facade::defaultAliases()->merge([
         'Debugbar'      => Barryvdh\Debugbar\Facades\Debugbar::class,
-        'EntityManager' => LaravelDoctrine\ORM\Facades\EntityManager::class,
-        'Registry'      => LaravelDoctrine\ORM\Facades\Registry::class,
-        'Doctrine'      => LaravelDoctrine\ORM\Facades\Doctrine::class,
+        'MapBox'        => Koossaayy\LaravelMapbox\Facades\LaravelMapbox::class,
     ])->toArray(),
 
 ];

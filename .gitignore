@@ -22,3 +22,4 @@ html-coverage
 .php_cs-fixer.cache
 .editorconfig
 /phpunit/
+/clover.xml

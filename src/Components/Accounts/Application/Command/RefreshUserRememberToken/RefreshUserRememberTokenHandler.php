@@ -2,20 +2,21 @@
 
 namespace Components\Accounts\Application\Command\RefreshUserRememberToken;
 
-use Components\Accounts\Domain\Persist\UserRepository;
+use Components\Accounts\Domain\Ports\UsersContract;
+use Components\Accounts\Domain\ValueObjects as VO;
 
 final class RefreshUserRememberTokenHandler
 {
     public function __construct(
-        private readonly UserRepository $repository
+        private readonly UsersContract $repository
     ) {
     }
 
     public function __invoke(RefreshUserRememberToken $command): void
     {
-        $user = $this->repository->get($command->id());
+        $user = $this->repository->find(new VO\UserId($command->id()));
 
-        $user->refreshRememberToken($command->rememberToken());
+        $user->refreshRememberToken(new VO\UserRememberToken($command->rememberToken()));
 
         $this->repository->save($user);
     }

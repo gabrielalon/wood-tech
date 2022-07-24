@@ -3,11 +3,11 @@
 namespace Components\Accounts\Application\Command\CreateAdmin;
 
 use Components\Accounts\Domain\Admin;
-use Components\Accounts\Domain\Persist\AdminRepository;
-use Components\Accounts\Domain\Persist\UserRepository;
+use Components\Accounts\Domain\Ports\AdminsContract;
+use Components\Accounts\Domain\Ports\UsersContract;
 use Components\Accounts\Domain\User;
+use Components\Accounts\Domain\ValueObjects AS VO;
 use Illuminate\Contracts\Hashing\Hasher;
-use Ramsey\Uuid\Uuid;
 use System\Enum\RoleEnum;
 use System\IdGenerator;
 
@@ -16,28 +16,23 @@ final class CreateAdminHandler
     public function __construct(
         private readonly Hasher $hasher,
         private readonly IdGenerator $idGenerator,
-        private readonly UserRepository $userRepository,
-        private readonly AdminRepository $adminRepository,
+        private readonly UsersContract $userRepository,
+        private readonly AdminsContract $adminRepository,
     ) {
     }
 
     public function __invoke(CreateAdmin $command): void
     {
-        $this->userRepository->add($user = User::create(
-            $userId = $this->idGenerator->uuid(),
-            $command->email(),
-            $this->hasher->make($command->password())
-        ));
+        $userId = $this->idGenerator->uuid();
+        $hashedPassword = $this->hasher->make($command->password());
 
-        $user->assignRoles([RoleEnum::ADMIN]);
+        $user = User::create(new VO\UserId($userId), new VO\UserEmail($command->email()), new VO\UserPassword($hashedPassword));
+        $user->assignRoles(new VO\UserRoles(RoleEnum::adminRoles()));
 
-        $this->userRepository->assignRoles($user);
+        $admin = Admin::create(new VO\AdminId($command->id()), new VO\AdminUserId($userId));
+        $admin->changeName(new VO\AdminFirstName($command->firstName()), new VO\AdminLastName($command->lastName()));
 
-        $this->adminRepository->save(Admin::create(
-            Uuid::fromString($command->id()),
-            $userId,
-            $command->firstName(),
-            $command->lastName(),
-        ));
+        $this->userRepository->save($user);
+        $this->adminRepository->save($admin);
     }
 }

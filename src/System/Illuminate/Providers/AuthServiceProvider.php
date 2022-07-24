@@ -2,7 +2,7 @@
 
 namespace System\Illuminate\Providers;
 
-use Components\Accounts\Adapters\Infrastructure\Service\UserAuthProvider;
+use Components\Accounts\Adapters\Infrastructure\Services\UserAuthProvider;
 use Components\Accounts\Application\Service\AuthProvider;
 use Components\Accounts\ReadModel\Model\User;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;

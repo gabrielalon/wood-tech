@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Database\Seeders\Components;
 
-use Components\Accounts\Adapters\Infrastructure\Entity\Role;
-use Components\Accounts\Adapters\Infrastructure\Entity\State;
+use Components\Accounts\Adapters\Infrastructure\ORM\Role;
+use Components\Accounts\Adapters\Infrastructure\ORM\State;
 use Illuminate\Database\Seeder;
 use System\Enum\LocaleEnum;
 use System\Enum\RoleEnum;

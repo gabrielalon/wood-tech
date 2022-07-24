@@ -6,7 +6,7 @@ namespace Tests\Components\Accounts\Unit\ReadModel\Model;
 
 use Components\Accounts\ReadModel\Model\AdminsPaginated;
 use Illuminate\Support\Arr;
-use Tests\Components\Accounts\Utils\Assembler\AdminAssembler;
+use Tests\Components\Accounts\Utils\Assemblers\AdminAssembler;
 use Tests\UnitTestCase;
 
 final class AdminsPaginatedTest extends UnitTestCase

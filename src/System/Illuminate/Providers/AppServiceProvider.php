@@ -2,13 +2,13 @@
 
 namespace System\Illuminate\Providers;
 
-use Components\Accounts\Adapters\Infrastructure\Database\DoctrineAdminRepository;
-use Components\Accounts\Adapters\Infrastructure\Database\DBAdmins;
-use Components\Accounts\Adapters\Infrastructure\Database\DBRoles;
-use Components\Accounts\Adapters\Infrastructure\Database\DBUserRepository;
-use Components\Accounts\Adapters\Infrastructure\Database\DBUsers;
-use Components\Accounts\Domain\Persist\AdminRepository;
-use Components\Accounts\Domain\Persist\UserRepository;
+use Components\Accounts\Adapters\Infrastructure\Queries\EloquentAdminsQuery;
+use Components\Accounts\Adapters\Infrastructure\Queries\EloquentRolesQuery;
+use Components\Accounts\Adapters\Infrastructure\Queries\EloquentUsersQuery;
+use Components\Accounts\Adapters\Infrastructure\Repositories\EloquentAdminsContract;
+use Components\Accounts\Adapters\Infrastructure\Repositories\EloquentUsersContract;
+use Components\Accounts\Domain\Ports\AdminsContract;
+use Components\Accounts\Domain\Ports\UsersContract;
 use Components\Accounts\ReadModel\Ports\Admins;
 use Components\Accounts\ReadModel\Ports\Roles;
 use Components\Accounts\ReadModel\Ports\Users;
@@ -38,20 +38,20 @@ final class AppServiceProvider extends ServiceProvider
 {
     public array $bindings = [
         // Accounts
-        Roles::class => DBRoles::class,
-        Users::class => DBUsers::class,
-        Admins::class => DBAdmins::class,
-        AdminRepository::class => DoctrineAdminRepository::class,
-        UserRepository::class => DBUserRepository::class,
+        Roles::class          => EloquentRolesQuery::class,
+        Users::class          => EloquentUsersQuery::class,
+        Admins::class         => EloquentAdminsQuery::class,
+        AdminsContract::class => EloquentAdminsContract::class,
+        UsersContract::class  => EloquentUsersContract::class,
 
         // Contents
-        Faqs::class => DBFaqs::class,
-        Offers::class => DBOffers::class,
-        Pages::class => DBPages::class,
-        Snippets::class => DBSnippets::class,
+        Faqs::class           => DBFaqs::class,
+        Offers::class         => DBOffers::class,
+        Pages::class          => DBPages::class,
+        Snippets::class       => DBSnippets::class,
 
         // Sites
-        Languages::class => DBLanguages::class,
+        Languages::class      => DBLanguages::class,
     ];
 
     public function boot(): void

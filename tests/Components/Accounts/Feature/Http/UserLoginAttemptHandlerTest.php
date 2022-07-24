@@ -5,9 +5,9 @@ declare(strict_types=1);
 namespace Tests\Components\Accounts\Feature\Http;
 
 use Symfony\Component\HttpFoundation\Response;
-use Tests\Components\Accounts\Utils\Assembler\UserAssembler;
-use Tests\Components\Accounts\Utils\Assembler\UserLoginAttemptRequestAssembler;
-use Tests\Components\Accounts\Utils\Seeder\AdminSeeder;
+use Tests\Components\Accounts\Utils\Assemblers\UserAssembler;
+use Tests\Components\Accounts\Utils\Assemblers\UserLoginAttemptRequestAssembler;
+use Tests\Components\Accounts\Utils\Seeders\AdminsSeeder;
 use Tests\TestCase;
 
 final class UserLoginAttemptHandlerTest extends TestCase
@@ -17,7 +17,10 @@ final class UserLoginAttemptHandlerTest extends TestCase
      */
     public function shouldLoginAsAdmin(): void
     {
-        $admin = AdminSeeder::seed(email: $email = 'test@test.com', password: $password = 'P@ssw0rd');
+        $admin = AdminsSeeder::seedOne([
+            'email' => $email = 'test@test.com',
+            'password' => $password = 'P@ssw0rd',
+        ]);
 
         $response = $this->post(route('admin.accounts.user.login.attempt'), [
             'email' => $email,

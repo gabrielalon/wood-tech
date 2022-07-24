@@ -2,13 +2,11 @@
 
 namespace Components\Accounts\Application\Command\RefreshUserLocale;
 
-use System\Enum\LocaleEnum;
-
 final class RefreshUserLocale
 {
     public function __construct(
         private readonly string $id,
-        private readonly LocaleEnum $locale
+        private readonly string $locale
     ) {
     }
 
@@ -17,7 +15,7 @@ final class RefreshUserLocale
         return $this->id;
     }
 
-    public function locale(): LocaleEnum
+    public function locale(): string
     {
         return $this->locale;
     }

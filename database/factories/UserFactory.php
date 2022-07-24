@@ -2,8 +2,8 @@
 
 namespace Database\Factories;
 
-use Components\Accounts\Adapters\Infrastructure\Entity\State;
-use Components\Accounts\Adapters\Infrastructure\Entity\User;
+use Components\Accounts\Adapters\Infrastructure\ORM\State;
+use Components\Accounts\Adapters\Infrastructure\ORM\User;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Str;

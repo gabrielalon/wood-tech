@@ -2,8 +2,8 @@
 
 namespace Database\Factories;
 
-use Components\Accounts\Adapters\Infrastructure\Entity\Admin;
-use Components\Accounts\Adapters\Infrastructure\Entity\User;
+use Components\Accounts\Adapters\Infrastructure\ORM\Admin;
+use Components\Accounts\Adapters\Infrastructure\ORM\User;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 final class AdminFactory extends Factory

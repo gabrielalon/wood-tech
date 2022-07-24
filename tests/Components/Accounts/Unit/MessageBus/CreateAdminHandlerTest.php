@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Tests\Components\Accounts\Unit\MessageBus;
 
 use Components\Accounts\Application\Command\CreateAdmin\CreateAdminHandler;
-use Tests\Components\Accounts\Utils\Assembler\CreateAdminAssembler;
+use Tests\Components\Accounts\Utils\Assemblers\CreateAdminAssembler;
 use Tests\MessageHandler;
 use Tests\UnitTestCase;
 
